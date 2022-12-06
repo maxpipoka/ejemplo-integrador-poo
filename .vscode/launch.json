@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            // Cambiar el 'F:/desarrollo/javafx-sdk-19' por la direccion en disco donde tengan el SDK de javaFX descomprimido
+            // Para que quede 'direcciondelSDKJavaFX/lib'
+            "vmArgs": "--module-path F:/desarrollo/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "edu.unam.App",
+            "projectName": "ejemploIntegradorPOO_2c2ab028"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            // Cambiar el 'F:/desarrollo/javafx-sdk-19' por la direccion en disco donde tengan el SDK de javaFX descomprimido
+            // Para que quede 'direcciondelSDKJavaFX/lib'
+            "vmArgs": "--module-path F:/desarrollo/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "edu.unam.App",
+            "projectName": "ejemploIntegrador_94ec38e9"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-
+instance" version="2.2" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <persistence-unit name="EmpresaPU" transaction-type="RESOURCE_LOCAL">      
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>edu.unam.modelo.Empleado</class>
+        <class>edu.unam.modelo.Departamento</class>
+        <class>edu.unam.modelo.Proyecto</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://containers-us-west-124.railway.app:7577/railway" />
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="jakarta.persistence.jdbc.user" value="postgres" />
+            <property name="jakarta.persistence.jdbc.password" value="B3XrObMkv9d7kk1IXrUI" />
+            <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+            <!-- <property name="eclipselink.logging.level" value="FINEST" /> -->
+        </properties>
+    </persistence-unit>
+</persistence>
